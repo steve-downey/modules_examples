@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.28)
-project(std_module_example_1 CXX)
+project(unit_example_1 CXX)
 
 # Turning off extensions avoids an issue with the clang 16 compiler
 # clang 17 and greater can avoid this setting

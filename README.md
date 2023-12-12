@@ -7,7 +7,7 @@ If you have clang-16 available on your PATH, simply running `make` will build al
 ## hello_world
 This is the example provided in the announcement that the experimental phase of module support in CMake is complete. See https://www.kitware.com/import-cmake-the-experiment-is-over/
 
-## example_1
+## unit_example_1
 This is the first example of modules in the C++ Standard, from [module.unit] 4 Example 1. https://eel.is/c++draft/module#unit-4
 
 This has four translation units
