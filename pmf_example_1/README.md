@@ -3,7 +3,7 @@
 https://eel.is/c++draft/module#private.frag-example-1
 
 Example 1:
-```C++`
+```C++
 export module A;
 export inline void fn_e();      // error: exported inline function fn_e not defined
                                 // before private module fragment
