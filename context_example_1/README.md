@@ -11,7 +11,7 @@ export template<typename T, typename U> void bar(T, U u) { auto v = *u; }
 ```
 
 Translation unit #2:
-```C++`
+```C++
 export module M1;
 import "defn.h";        // provides struct X {};
 import stuff;
