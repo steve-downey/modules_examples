@@ -25,7 +25,7 @@ ifeq ($(strip $(TOOLCHAIN)),)
 	_build_name?=build
 	_build_dir?=./cmake.bld/${PROJECT}
 	_configuration_types?="RelWithDebInfo;Debug;Tsan;Asan"
-	_cmake_args=-DCMAKE_TOOLCHAIN_FILE=$(CURDIR)/etc/clang-16-toolchain.cmake
+	_cmake_args=-DCMAKE_TOOLCHAIN_FILE=$(CURDIR)/etc/clang-19-toolchain.cmake
 else
 	_build_name?=build-$(TOOLCHAIN)
 	_build_dir?=./cmake.bld/${PROJECT}
